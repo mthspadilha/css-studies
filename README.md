@@ -12,6 +12,8 @@ Utilização da padrão BEM: block__element--modifier utilizado **apenas** no c�
 ```<li class="menu__item"><a class="menu-link ativo" href="#">Início</a></li> ```
 como esse exemplo **menu** é um bloco **item** é um elemento, caso houvese um modificador
 teriamos ```<li class="menu__item--ativo">```
+Uma boa prática é colocar os itens dos arquivos css em ordem alfabética, é mais facil procurar
+no caso de muitos estilos num mesmo arquivo ou elemento.
 
 ---
 -en 🇬🇧
@@ -28,4 +30,5 @@ we are using BEM standard: block__element--modifier, only in the code
 ```<li class="menu__item"><a class="menu-link ativo" href="#">Início</a></li> ```
 where menu is a block, item is an element, if there was a modifier, we would have
 ```<li class="menu__item--ativo">```
-
+A good practice is to put the items in the css files in alphabetical order, it is easier to search
+in the case of many styles in the same file or element.
